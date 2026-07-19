@@ -5,38 +5,38 @@ import { Check } from "lucide-react";
 
 const bonuses = [
   {
-    title: "Remote Startup Job Kit",
-    sub: "60+ curated resources",
+    title: "Remote Startup Launch Kit",
+    sub: "Everything you need to start applying",
     description:
-      "A live document of 60+ websites, job boards, Slack communities, and tools. Updated. Organized. Categorized by use case.",
+      "A curated toolkit with startup resources, job platforms, outreach templates, and practical tools to help you execute your job search after the session.",
     size: "large",
   },
   {
-    title: "AI Prompt Pack",
-    sub: "25+ tested prompts",
+    title: "AI Prompt Library",
+    sub: "Ready-to-use career prompts",
     description:
-      "Startup-specific prompts for cold emails, LinkedIn rewrites, resume bullets, and outreach messages. Not generic.",
+      "A collection of AI prompts for resume optimization, LinkedIn, founder outreach, cold emails, interview preparation, and job search.",
     size: "small",
   },
   {
-    title: "Resume Checklist",
-    sub: "1-page startup format",
+    title: "Startup Interview Playbook",
+    sub: "Interview with confidence",
     description:
-      "The exact checklist I used to trim my resume to what startup founders actually want to see.",
+      "Learn what startup founders actually look for, common interview questions, and practical frameworks to answer them effectively.",
     size: "small",
   },
   {
-    title: "Interview Cheat Sheet",
-    sub: "Founder-interview patterns",
+    title: "Personalized 30-Day Job Search Plan",
+    sub: "Your roadmap starts here",
     description:
-      "Common startup founder questions decoded — with frameworks for answering without sounding rehearsed.",
+      "Leave the session with a customized 30-day action plan based on your profile, target roles, and career goals.",
     size: "small",
   },
   {
-    title: "7-Day WhatsApp Support",
-    sub: "Direct access",
+    title: "Post Session WhatsApp Support",
+    sub: "Support beyond the session",
     description:
-      "Ask questions, share your resume for feedback, get answers. Direct. No bots. Limited to cohort members only.",
+      "Get guidance on resumes, outreach, interviews, and job search whenever you need help after the session.",
     size: "small",
   },
 ];
@@ -54,10 +54,10 @@ export function Bonuses() {
           className="mb-8"
         >
           <p className="text-xs font-semibold uppercase tracking-widest text-emerald-500 mb-4">
-            Included with every seat
+            INCLUDED WITH YOUR SESSION
           </p>
           <h2 className="text-3xl font-semibold tracking-tighter text-white sm:text-4xl lg:text-5xl">
-            Bonuses worth more<br className="hidden sm:block" /> than the ticket price.
+            Everything Included With<br className="hidden sm:block" /> Your Session
           </h2>
         </motion.div>
 

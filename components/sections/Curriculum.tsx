@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { Check } from "lucide-react";
 import {
   Accordion,
   AccordionContent,
@@ -10,59 +11,36 @@ import {
 
 const topics = [
   {
-    title: "Startup Hiring",
-    description:
-      "Startups hire completely differently from MNCs. Understand how decisions get made, who actually reviews applications, and why the hiring cycle at an early-stage startup is 10x faster — and 10x more informal.",
+    title: "Personalized Job Strategy",
+    description: "A customized roadmap designed specifically for your skills and goals.",
   },
   {
-    title: "Wellfound Strategy",
-    description:
-      "Wellfound (formerly AngelList) is where serious startup founders post real roles. Learn how to set up a profile that gets founders to reach out first, and how to filter for remote-friendly, early-stage opportunities.",
+    title: "Resume Review",
+    description: "Line-by-line feedback to make your resume action-first and startup-ready.",
   },
   {
-    title: "YC Companies",
-    description:
-      "Y Combinator's job board lists hundreds of remote-friendly roles from funded startups. Most applicants skip this entirely. I'll show you exactly how to find, filter, and apply to roles that fit your profile.",
+    title: "LinkedIn Review",
+    description: "Transform your profile into a landing page that converts founders.",
   },
   {
-    title: "Hidden Startup Jobs",
-    description:
-      "The best startup roles are never posted publicly. They exist in Slack communities, Discord servers, Reddit threads, and Twitter/X replies. I'll give you the exact places to look — most of which have zero competition.",
+    title: "Startup Search System",
+    description: "Learn where to look and how to identify high-growth startups before they post jobs.",
   },
   {
-    title: "Founder Outreach",
-    description:
-      "The most direct path into a startup is a cold DM to the founder. I'll show you the exact outreach framework that gets replies — short, direct, and value-forward. Not a cover letter. A conversation starter.",
+    title: "Founder Outreach Strategy",
+    description: "The exact approach to skip HR and get directly into a founder's inbox.",
   },
   {
-    title: "Resume Optimization",
-    description:
-      "Startup resumes look nothing like corporate resumes. One page. Action-first bullet points. Results over responsibilities. I'll break down what startup founders scan for in the first 8 seconds.",
-  },
-  {
-    title: "LinkedIn Optimization",
-    description:
-      "Your LinkedIn headline is your pitch. Your About section is your cover letter. I'll show you how to position your profile so founders stop scrolling — even with no experience yet.",
+    title: "Outreach Templates",
+    description: "Proven scripts for cold emails and LinkedIn DMs that get replies.",
   },
   {
     title: "AI Prompt Pack",
-    description:
-      "25+ tested prompts to write cold emails, LinkedIn headlines, resume bullets, and outreach messages using AI. Not generic prompts — startup-specific ones tuned for founders who hate fluff.",
+    description: "My personal library of prompts to automate research and draft outreach.",
   },
   {
-    title: "Interview Strategy",
-    description:
-      "Startup interviews feel like conversations, not evaluations. Founders are testing for clarity of thinking, not credentials. Know exactly what questions to expect, what they're really asking, and how to answer without sounding rehearsed.",
-  },
-  {
-    title: "Cold Outreach",
-    description:
-      "The framework: short, specific, valuable. I'll walk through the exact cold email and DM structure I used — with real examples. No templates that sound like templates. Messaging that feels personal.",
-  },
-  {
-    title: "Remote Startup Job Kit",
-    description:
-      "A compiled resource of 60+ websites, job boards, communities, and tools specifically for remote startup roles. Organized, categorized, and ready to use the moment the session ends.",
+    title: "Personalized 30-Day Job Search Plan",
+    description: "A day-by-day checklist so you know exactly what to do after our session.",
   },
 ];
 
@@ -80,14 +58,14 @@ export function Curriculum() {
           className="mb-8"
         >
           <p className="text-xs font-semibold uppercase tracking-widest text-emerald-500 mb-4">
-            Curriculum
+            Outcomes
           </p>
           <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
             <h2 className="text-3xl font-semibold tracking-tighter text-white sm:text-4xl lg:text-5xl">
-              What you&apos;ll walk away with.
+              What You&apos;ll Leave With.
             </h2>
             <p className="text-sm text-zinc-600 sm:text-right sm:max-w-xs">
-              11 topics. 1 hour. Condensed from months of real experience.
+              A complete toolkit and strategy tailored specifically to your goals.
             </p>
           </div>
         </motion.div>
@@ -107,8 +85,8 @@ export function Curriculum() {
                 className="border-none py-1"
               >
                 <AccordionTrigger className="group flex w-full items-center gap-5 py-5 text-left hover:no-underline outline-none">
-                  <span className="shrink-0 w-8 text-xs font-mono text-zinc-600 group-aria-expanded:text-emerald-500 transition-colors">
-                    {String(i + 1).padStart(2, "0")}
+                  <span className="shrink-0 w-8 text-emerald-500 flex items-center">
+                    <Check className="h-5 w-5" />
                   </span>
                   <span className="flex-1 text-base font-medium text-zinc-300 group-hover:text-white group-aria-expanded:text-white transition-colors sm:text-lg">
                     {topic.title}

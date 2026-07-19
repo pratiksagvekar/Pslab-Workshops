@@ -10,25 +10,33 @@ import {
 
 const faqs = [
   {
-    q: "Do I need any prior experience?",
-    a: "None. This cohort is built for people starting from zero — students, freshers, career switchers. If you have a smartphone and a LinkedIn profile, you're ready.",
+    q: "Is this a personalized session?",
+    a: "Yes, absolutely. This is a 1:1 mentorship session where we will focus entirely on your specific career goals and profile.",
   },
   {
-    q: "Will I get a recording?",
-    a: "Yes. All registered attendees get access to the session recording within 24 hours, shared via the WhatsApp group.",
+    q: "How long is the session?",
+    a: "The session is 60 minutes long, conducted via Google Meet.",
   },
   {
-    q: "Does this guarantee a job?",
-    a: "No. I'm not going to say that. What I can say is that you'll leave with a clear system and the exact tools I used. Results depend on how consistently you apply them.",
+    q: "Will you review my resume and LinkedIn?",
+    a: "Yes. We will do a live, line-by-line review of your resume and LinkedIn profile to optimize them for startup founders.",
   },
   {
-    q: "How will I receive the meeting link?",
-    a: "After payment confirmation, you'll be added to a private WhatsApp group where the live session link, all resources, and updates will be shared.",
+    q: "Can beginners join? Do I need prior experience?",
+    a: "Yes, beginners are welcome. You don't need any prior startup experience. We'll build a strategy from scratch.",
   },
   {
-    q: "Can I pay after the session?",
-    a: "No. Your seat is only confirmed after payment. With 20–25 seats, we can't hold spots without confirmation.",
+    q: "Will I receive AI prompts and outreach templates?",
+    a: "Yes. You'll get access to my personal AI prompt pack and proven founder outreach templates.",
   },
+  {
+    q: "Will I get a personalized action plan?",
+    a: "Yes, you'll leave the session with a 30-day action plan tailored to your specific job search strategy.",
+  },
+  {
+    q: "Can I ask career specific questions?",
+    a: "Of course. Since this is a 1:1 session, you can ask any specific questions related to your career or job search.",
+  }
 ];
 
 export function FAQ() {

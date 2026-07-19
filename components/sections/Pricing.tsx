@@ -23,16 +23,16 @@ export function Pricing({ onReserveClick }: PricingProps) {
               Pricing
             </p>
             <h2 className="text-3xl font-semibold tracking-tighter text-white sm:text-4xl lg:text-5xl mb-4">
-              One seat.<br />One session.
+              One Session.<br />One Personalized Plan.
             </h2>
             <p className="text-base text-zinc-400 leading-relaxed mb-8 max-w-sm">
-              Simple pricing. No subscriptions. No upsells. Price increases as seats fill.
+              Simple pricing. No subscriptions. No upsells.
             </p>
 
-            {/* Seat scarcity */}
+            {/* Scarcity */}
             <div className="flex items-center gap-3 text-sm text-zinc-500">
               <span className="inline-block h-1.5 w-1.5 rounded-full bg-amber-400" />
-              Only 20–25 seats. No waitlist after close.
+              Limited launch pricing.
             </div>
           </motion.div>
 
@@ -56,19 +56,19 @@ export function Pricing({ onReserveClick }: PricingProps) {
 
               <div className="mb-6">
                 <div className="flex items-baseline gap-2">
-                  <span className="text-5xl font-bold tracking-tighter text-white">₹199</span>
+                  <span className="text-5xl font-bold tracking-tighter text-white">₹249</span>
                 </div>
               </div>
 
               {/* Included features */}
               <div className="space-y-2.5 mb-8">
                 {[
-                  "Full live 1-hour session",
-                  "Remote Startup Job Kit (60+ resources)",
+                  "60 Minute 1:1 Session",
+                  "Personalized Action Plan",
+                  "Resume & LinkedIn Review",
+                  "Remote Startup Job Kit",
                   "AI Prompt Pack",
-                  "Resume Checklist",
-                  "Interview Cheat Sheet",
-                  "7-day WhatsApp support",
+                  "Founder Outreach Templates",
                   "Session recording",
                 ].map((f) => (
                   <div key={f} className="flex items-center gap-2.5 text-sm text-zinc-300">
@@ -83,20 +83,11 @@ export function Pricing({ onReserveClick }: PricingProps) {
                 onClick={onReserveClick}
                 className="w-full h-11 rounded-xl bg-emerald-500 text-sm font-semibold text-black hover:bg-emerald-400 active:scale-[0.98] transition-all duration-200"
               >
-                Reserve My Seat →
+                Book Your Session →
               </button>
-            </div>
-
-            {/* Saturday+ — Dimmed comparison */}
-            <div className="rounded-2xl border border-white/[0.07] bg-white/[0.02] p-5 flex items-center justify-between">
-              <div>
-                <p className="text-xs text-zinc-600 uppercase tracking-wider mb-1">Saturday onwards</p>
-                <p className="text-sm text-zinc-500">Same session, same bonuses</p>
-              </div>
-              <div className="text-right">
-                <p className="text-2xl font-semibold text-zinc-600">₹399</p>
-                <p className="text-xs text-zinc-700 mt-0.5">Price increases</p>
-              </div>
+              <p className="mt-4 text-center text-xs text-zinc-500">
+                Limited launch pricing.<br />Personalized Google Meet session.
+              </p>
             </div>
           </motion.div>
         </div>

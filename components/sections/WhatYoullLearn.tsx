@@ -20,82 +20,59 @@ import { cn } from "@/lib/utils";
 const topics = [
   {
     icon: Search,
-    title: "Finding Hidden Startup Jobs",
-    description:
-      "Most startup roles are never posted publicly. Learn exactly where to look before anyone else does.",
+    title: "Personalized Job Strategy",
+    description: "A customized roadmap designed specifically for your skills and goals.",
     size: "large",
     gradient: "from-emerald-500/10 to-teal-500/5",
   },
   {
-    icon: Globe,
-    title: "Wellfound Strategy",
-    description:
-      "The #1 platform for startup jobs. Most applicants use it wrong. Here's the right way.",
+    icon: FileText,
+    title: "Resume Review",
+    description: "Line-by-line feedback to make your resume action-first and startup-ready.",
     size: "medium",
     gradient: "from-blue-500/8 to-indigo-500/5",
   },
   {
-    icon: Building2,
-    title: "YC Companies",
-    description: "Y Combinator's portfolio is a goldmine for remote opportunities.",
+    icon: Link2,
+    title: "LinkedIn Review",
+    description: "Transform your profile into a landing page that converts founders.",
     size: "small",
     gradient: "from-orange-500/8 to-amber-500/5",
   },
   {
-    icon: MessageSquare,
-    title: "Founder Outreach",
-    description:
-      "Cold DM founders directly. The template that gets replies.",
+    icon: Globe,
+    title: "Startup Search System",
+    description: "Learn where to look and how to identify high-growth startups before they post jobs.",
     size: "small",
     gradient: "from-purple-500/8 to-violet-500/5",
   },
   {
-    icon: FileText,
-    title: "Resume Optimization",
-    description:
-      "Startup resumes look completely different from corporate ones. One page. No fluff. Action-first.",
+    icon: MessageSquare,
+    title: "Founder Outreach Strategy",
+    description: "The exact approach to skip HR and get directly into a founder's inbox.",
     size: "medium",
     gradient: "from-rose-500/8 to-pink-500/5",
   },
   {
-    icon: Link2,
-    title: "LinkedIn Optimization",
-    description:
-      "Your LinkedIn is your startup pitch deck. Make founders stop scrolling.",
+    icon: Mail,
+    title: "Outreach Templates",
+    description: "Proven scripts for cold emails and LinkedIn DMs that get replies.",
     size: "medium",
     gradient: "from-sky-500/8 to-cyan-500/5",
   },
   {
     icon: Bot,
     title: "AI Prompt Pack",
-    description:
-      "25+ prompts to write your outreach, resume, and LinkedIn summary in minutes.",
+    description: "My personal library of prompts to automate research and draft outreach.",
     size: "small",
     gradient: "from-emerald-500/8 to-green-500/5",
   },
   {
     icon: Trophy,
-    title: "Interview Strategy",
-    description:
-      "Startup interviews feel like conversations. Know what founders are really testing for.",
-    size: "small",
-    gradient: "from-yellow-500/8 to-amber-500/5",
-  },
-  {
-    icon: Mail,
-    title: "Cold Outreach",
-    description:
-      "The exact cold email / DM framework that gets callbacks from founders.",
+    title: "Personalized 30-Day Job Search Plan",
+    description: "A day-by-day checklist so you know exactly what to do after our session.",
     size: "large",
-    gradient: "from-indigo-500/8 to-violet-500/5",
-  },
-  {
-    icon: Package,
-    title: "Remote Job Kit",
-    description:
-      "Everything bundled: 60+ websites, checklists, templates, and AI prompts.",
-    size: "medium",
-    gradient: "from-teal-500/8 to-emerald-500/5",
+    gradient: "from-yellow-500/8 to-amber-500/5",
   },
 ];
 
@@ -171,13 +148,13 @@ export function WhatYoullLearn() {
         <BlurFade inView delay={0} blur="8px">
           <div className="mb-14 text-center">
             <p className="mb-3 text-xs font-semibold uppercase tracking-widest text-emerald-500">
-              Curriculum
+              Outcomes
             </p>
             <h2 className="text-3xl font-semibold tracking-tighter text-white sm:text-4xl lg:text-5xl">
-              What you'll learn
+              What You'll Leave With
             </h2>
             <p className="mt-4 text-base text-zinc-500 max-w-xl mx-auto">
-              10 modules. 1 hour. Everything condensed so you can start applying the same week.
+              A complete toolkit and strategy tailored specifically to your goals.
             </p>
           </div>
         </BlurFade>
@@ -191,11 +168,8 @@ export function WhatYoullLearn() {
           <BentoCard topic={topics[3]} index={3} />
           <BentoCard topic={topics[4]} index={4} />
           <BentoCard topic={topics[5]} index={5} />
-          <BentoCard topic={topics[6]} index={6} />
-          <BentoCard topic={topics[7]} index={7} />
-          {/* Large card — col span 2 */}
-          <BentoCard topic={topics[8]} index={8} className="sm:col-span-2 lg:col-span-1" />
-          <BentoCard topic={topics[9]} index={9} className="sm:col-span-2 lg:col-span-2" />
+          <BentoCard topic={topics[6]} index={6} className="sm:col-span-2 lg:col-span-1" />
+          <BentoCard topic={topics[7]} index={7} className="sm:col-span-2 lg:col-span-2" />
         </div>
       </div>
     </section>

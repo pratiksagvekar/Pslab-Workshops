@@ -7,6 +7,7 @@ import { Story } from "@/components/sections/Story";
 import { Curriculum } from "@/components/sections/Curriculum";
 import { Bonuses } from "@/components/sections/Bonuses";
 import { WhoIsThisFor } from "@/components/sections/WhoIsThisFor";
+import { TargetRoles } from "@/components/sections/TargetRoles";
 import { Pricing } from "@/components/sections/Pricing";
 import { Payment } from "@/components/sections/Payment";
 import { FAQ } from "@/components/sections/FAQ";
@@ -28,9 +29,10 @@ export default function Home() {
       <Navbar onReserveClick={scrollToPayment} />
 
       <Hero onReserveClick={scrollToPayment} />
-      <WhoIsThisFor />
       <Story />
       <Curriculum />
+      <WhoIsThisFor />
+      <TargetRoles />
       <Bonuses />
       <Pricing onReserveClick={scrollToPayment} />
 

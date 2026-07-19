@@ -3,17 +3,17 @@
 import { motion } from "framer-motion";
 
 const paragraphs = [
-  "A few months ago I wasn't searching for a dream job.",
-  "I was simply trying to survive.",
-  "Traditional job portals weren't working for me. Hundreds of applications. Near-zero responses. The usual advice — polish your resume, apply more — wasn't moving the needle.",
-  "So I stopped following conventional advice and started studying how startups actually hire.",
-  "I experimented. Applied differently. Got rejected. Improved. And repeated.",
-  "Eventually I landed a Business Development Internship at Category Intelligence — a US-based startup.",
-  "Everything I'm teaching inside this cohort comes from that real journey. Not from a course I bought. Not from theory. From what actually worked.",
+  "I don't believe another generic workshop will change your career.",
+  "You don't need more theory. You need a personalized strategy.",
+  "Instead of talking at you, we'll work together on YOUR profile. We'll analyze what's working and fix what isn't.",
+  "During our session, we'll optimize your Resume and LinkedIn so you stand out to founders.",
+  "We'll build a tailored Startup search strategy and Founder outreach plan that actually gets responses.",
+  "I'll share the exact AI tools and workflows I use to automate the heavy lifting.",
+  "You'll leave with a clear, personalized roadmap that feels like mentorship, not just teaching.",
 ];
 
 const pullQuote =
-  "I'm not teaching a formula. I'm sharing the exact system that took me from confusion to an offer letter.";
+  "We're not just talking about getting a job. We're building a personalized strategy to land it.";
 
 export function Story() {
   return (
@@ -33,7 +33,7 @@ export function Story() {
               The Story
             </p>
             <h2 className="text-3xl font-semibold tracking-tighter text-white sm:text-4xl">
-              Why I&apos;m Hosting This.
+              Why I&apos;m Doing This.
             </h2>
           </motion.div>
 

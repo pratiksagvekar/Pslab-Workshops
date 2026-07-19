@@ -29,7 +29,7 @@ export function Navbar({ onReserveClick }: NavbarProps) {
           : "bg-transparent"
       )}
     >
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
+      <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3">
         <span className="text-sm font-medium tracking-tight text-white">
           Pratik Sagvekar
         </span>
@@ -39,7 +39,7 @@ export function Navbar({ onReserveClick }: NavbarProps) {
           id="nav-reserve-btn"
           className="text-sm font-medium text-emerald-400 hover:text-emerald-300 transition-colors duration-200"
         >
-          Reserve Seat →
+          Book Session →
         </button>
       </div>
     </motion.header>

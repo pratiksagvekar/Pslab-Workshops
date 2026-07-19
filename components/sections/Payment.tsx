@@ -27,17 +27,17 @@ export function Payment() {
               Payment
             </p>
             <h2 className="text-3xl font-semibold tracking-tighter text-white sm:text-4xl lg:text-5xl mb-4">
-              Reserve Your Seat.
+              Book Your Session.
             </h2>
             <p className="text-base text-zinc-400 leading-relaxed mb-8 max-w-sm">
-              Scan the QR code using any UPI app. Once paid, tap the button below to confirm your seat on WhatsApp.
+              Book a personalized Remote Startup Career Strategy Session and let's build a roadmap tailored specifically to your goals.
             </p>
 
             {/* Step list */}
             <div className="space-y-4 mb-10">
               {[
                 "Open GPay, PhonePe, Paytm, or any UPI app",
-                "Scan the QR code and pay ₹199",
+                "Scan the QR code and pay ₹249",
                 "Screenshot your payment confirmation",
                 "Tap 'I've Completed Payment' below",
               ].map((step, i) => (
@@ -104,11 +104,11 @@ export function Payment() {
             {/* Amount callout */}
             <div className="mt-6 flex items-center gap-3">
               <div className="h-px flex-1 bg-white/[0.06]" />
-              <span className="text-3xl font-bold tracking-tighter text-white">₹199</span>
+              <span className="text-3xl font-bold tracking-tighter text-white">₹249</span>
               <div className="h-px flex-1 bg-white/[0.06]" />
             </div>
             <p className="mt-2 text-center text-xs text-zinc-600 w-full max-w-[320px]">
-              Early Bird · Price increases to ₹399 from Saturday
+              Limited launch pricing
             </p>
           </motion.div>
         </div>
