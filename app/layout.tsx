@@ -22,9 +22,10 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Get Your First Remote Startup Job — Cohort 1 | Pratik Sagvekar",
+  metadataBase: new URL("https://pslabworkshops.vercel.app"),
+  title: "Land Your First Remote Startup Job | 1:1 Career Strategy Session",
   description:
-    "Learn the exact startup hiring system that helped me land a Business Development Internship at a US-based startup. Live cohort. Only 20–25 seats. ₹199 Early Bird.",
+    "Book a personalized 1:1 remote startup career strategy session. Resume review, LinkedIn optimization, startup hiring strategy, founder outreach, AI workflow, and a personalized action plan.",
   keywords: [
     "remote job",
     "startup job",
@@ -33,7 +34,7 @@ export const metadata: Metadata = {
     "YC companies",
     "remote work india",
     "startup hiring",
-    "cohort",
+    "career strategy",
     "Pratik Sagvekar",
   ],
   authors: [{ name: "Pratik Sagvekar" }],
@@ -41,25 +42,26 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_IN",
-    title: "Get Your First Remote Startup Job — Cohort 1",
+    url: "https://pslabworkshops.vercel.app",
+    title: "Land Your First Remote Startup Job | 1:1 Career Strategy Session",
     description:
-      "Live 1-hour cohort. Learn the startup hiring system that landed me a US BD internship. Only 20–25 seats. ₹199 Early Bird.",
-    siteName: "Remote Job Cohort by Pratik Sagvekar",
+      "Book a personalized 1:1 remote startup career strategy session. Resume review, LinkedIn optimization, startup hiring strategy, founder outreach, AI workflow, and a personalized action plan.",
+    siteName: "1:1 Career Strategy Session by Pratik Sagvekar",
     images: [
       {
-        url: "/speaker.png",
+        url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Pratik Sagvekar — Remote Startup Job Cohort 1",
+        alt: "Pratik Sagvekar — 1:1 Career Strategy Session",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Get Your First Remote Startup Job — Cohort 1",
+    title: "Land Your First Remote Startup Job | 1:1 Career Strategy Session",
     description:
-      "Live 1-hour cohort. Learn the startup hiring system that landed me a US BD internship. Only 20–25 seats. ₹199 Early Bird.",
-    images: ["/speaker.png"],
+      "Book a personalized 1:1 remote startup career strategy session. Resume review, LinkedIn optimization, startup hiring strategy, founder outreach, AI workflow, and a personalized action plan.",
+    images: ["/og-image.jpg"],
     creator: "@pratik",
   },
   robots: {
