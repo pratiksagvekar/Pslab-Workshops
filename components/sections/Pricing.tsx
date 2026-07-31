@@ -56,7 +56,7 @@ export function Pricing({ onReserveClick }: PricingProps) {
 
               <div className="mb-6">
                 <div className="flex items-baseline gap-2">
-                  <span className="text-5xl font-bold tracking-tighter text-white">₹249</span>
+                  <span className="text-5xl font-bold tracking-tighter text-white">₹499</span>
                 </div>
               </div>
 
@@ -64,6 +64,7 @@ export function Pricing({ onReserveClick }: PricingProps) {
               <div className="space-y-2.5 mb-8">
                 {[
                   "60 Minute 1:1 Session",
+                  "2 Months Direct WhatsApp Support",
                   "Personalized Action Plan",
                   "Resume & LinkedIn Review",
                   "Remote Startup Job Kit",

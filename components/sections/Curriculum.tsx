@@ -42,6 +42,10 @@ const topics = [
     title: "Personalized 30-Day Job Search Plan",
     description: "A day-by-day checklist so you know exactly what to do after our session.",
   },
+  {
+    title: "2 Months WhatsApp Support",
+    description: "Direct WhatsApp support for 2 months to answer questions, review outreach, and guide your job search post-session.",
+  },
 ];
 
 export function Curriculum() {

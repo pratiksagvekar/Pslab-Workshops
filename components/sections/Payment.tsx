@@ -37,7 +37,7 @@ export function Payment() {
             <div className="space-y-4 mb-10">
               {[
                 "Open GPay, PhonePe, Paytm, or any UPI app",
-                "Scan the QR code and pay ₹249",
+                "Scan the QR code and pay ₹499",
                 "Screenshot your payment confirmation",
                 "Tap 'I've Completed Payment' below",
               ].map((step, i) => (
@@ -104,7 +104,7 @@ export function Payment() {
             {/* Amount callout */}
             <div className="mt-6 flex items-center gap-3">
               <div className="h-px flex-1 bg-white/[0.06]" />
-              <span className="text-3xl font-bold tracking-tighter text-white">₹249</span>
+              <span className="text-3xl font-bold tracking-tighter text-white">₹499</span>
               <div className="h-px flex-1 bg-white/[0.06]" />
             </div>
             <p className="mt-2 text-center text-xs text-zinc-600 w-full max-w-[320px]">

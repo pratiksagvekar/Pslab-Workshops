@@ -28,7 +28,7 @@ export function StickyCTA({ onReserveClick }: StickyCTAProps) {
         >
           <div className="flex items-center gap-3 rounded-2xl border border-white/10 bg-zinc-900/95 px-4 py-3 shadow-2xl shadow-black/60 backdrop-blur-xl">
             <p className="text-xs text-zinc-500 hidden sm:block">Limited Launch Pricing ·</p>
-            <span className="text-sm font-semibold text-white">₹249 1:1 Session</span>
+            <span className="text-sm font-semibold text-white">₹499 1:1 Session</span>
             <button
               onClick={onReserveClick}
               id="sticky-reserve-btn"

@@ -21,8 +21,16 @@ export const viewport: Viewport = {
   maximumScale: 5,
 };
 
+const baseUrl = process.env.NEXT_PUBLIC_APP_URL
+  ? (process.env.NEXT_PUBLIC_APP_URL.startsWith("http") ? process.env.NEXT_PUBLIC_APP_URL : `https://${process.env.NEXT_PUBLIC_APP_URL}`)
+  : process.env.VERCEL_PROJECT_PRODUCTION_URL
+  ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+  : process.env.VERCEL_URL
+  ? `https://${process.env.VERCEL_URL}`
+  : "https://pslabworkshops.vercel.app";
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://pslabworkshops.vercel.app"),
+  metadataBase: new URL(baseUrl),
   title: "Land Your First Remote Startup Job | 1:1 Career Strategy Session",
   description:
     "Book a personalized 1:1 remote startup career strategy session. Resume review, LinkedIn optimization, startup hiring strategy, founder outreach, AI workflow, and a personalized action plan.",
@@ -42,7 +50,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_IN",
-    url: "https://pslabworkshops.vercel.app",
+    url: baseUrl,
     title: "Land Your First Remote Startup Job | 1:1 Career Strategy Session",
     description:
       "Book a personalized 1:1 remote startup career strategy session. Resume review, LinkedIn optimization, startup hiring strategy, founder outreach, AI workflow, and a personalized action plan.",
@@ -52,7 +60,8 @@ export const metadata: Metadata = {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Pratik Sagvekar — 1:1 Career Strategy Session",
+        type: "image/jpeg",
+        alt: "Land Your First Remote Startup Job — 1:1 Career Strategy Session by Pratik Sagvekar",
       },
     ],
   },

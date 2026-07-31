@@ -57,7 +57,7 @@ export function PaymentModal({ open, onClose }: PaymentModalProps) {
               Scan &amp; Pay
             </DialogTitle>
             <DialogDescription className="text-sm text-zinc-500">
-              Pay ₹199 to confirm your seat in Cohort 1.
+              Pay ₹499 to confirm your seat in Cohort 1.
             </DialogDescription>
           </DialogHeader>
 
@@ -76,7 +76,7 @@ export function PaymentModal({ open, onClose }: PaymentModalProps) {
             </div>
 
             <div className="text-center">
-              <p className="text-2xl font-bold tracking-tight text-white">₹199</p>
+              <p className="text-2xl font-bold tracking-tight text-white">₹499</p>
               <p className="text-xs text-zinc-500 mt-0.5">Early Bird · Cohort 1</p>
             </div>
 
@@ -96,7 +96,7 @@ export function PaymentModal({ open, onClose }: PaymentModalProps) {
             {[
               "Open any UPI app (GPay, PhonePe, Paytm)",
               "Scan the QR code above",
-              "Pay exactly ₹199",
+              "Pay exactly ₹499",
               "Screenshot your payment confirmation",
             ].map((step, i) => (
               <div key={i} className="flex items-start gap-2.5">

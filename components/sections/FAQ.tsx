@@ -36,6 +36,10 @@ const faqs = [
   {
     q: "Can I ask career specific questions?",
     a: "Of course. Since this is a 1:1 session, you can ask any specific questions related to your career or job search.",
+  },
+  {
+    q: "Do I get support after the session?",
+    a: "Yes! You get 2 months of direct WhatsApp support for any questions, resume updates, outreach review, or interview preparation after our 1:1 session.",
   }
 ];
 

@@ -76,7 +76,7 @@ export function Hero({ onReserveClick }: HeroProps) {
             </span>
             <span className="flex items-center gap-2">
               <span className="h-px w-4 bg-zinc-700" />
-              ✓ Google Meet
+              ✓ 2 Months WhatsApp Support
             </span>
             <span className="flex items-center gap-2">
               <span className="h-px w-4 bg-zinc-700" />

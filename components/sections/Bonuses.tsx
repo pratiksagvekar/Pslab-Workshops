@@ -33,10 +33,10 @@ const bonuses = [
     size: "small",
   },
   {
-    title: "Post Session WhatsApp Support",
-    sub: "Support beyond the session",
+    title: "2 Months WhatsApp Support",
+    sub: "Direct support for 60 days",
     description:
-      "Get guidance on resumes, outreach, interviews, and job search whenever you need help after the session.",
+      "Get 2 months of direct WhatsApp support for guidance on resumes, outreach, interviews, and job search whenever you need help after the session.",
     size: "small",
   },
 ];
